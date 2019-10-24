@@ -5,7 +5,7 @@ Create requests for retrieving reports from the Adobe Analytics 2.0 API. Writing
 * User authenthication with the Adobe IMS
 * JWT token generation
 * Proxy support
-* Create and download (multi-breakdown) reports
+* Create and download (multi-level breakdown) reports
 
 # Supported Endpoints
 | Name              | Type   | Endpoint                   | Description                                                  |
@@ -22,7 +22,7 @@ Create requests for retrieving reports from the Adobe Analytics 2.0 API. Writing
 # Installation
 1. Clone this repository
 2. Create an Adobe [service account](https://console.adobe.io/home) with Developer or Admin rights
-3. Create a private key
+3. Create a private key (a sample key can be found in `credentials`)
 4. Add your account credentials and paths to `credentials/config`
 5. `cd` into the repository folder
 6. Run `pip install -e .`
@@ -30,5 +30,5 @@ Create requests for retrieving reports from the Adobe Analytics 2.0 API. Writing
 # Useful links:
 * [Analytics API Reports User Guide](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)
 * [Swagger UI](https://adobedocs.github.io/analytics-2.0-apis/)
-* [adobeio-auth](https://github.com/AdobeDocs/adobeio-auth/tree/master)
-* [analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
+* Adobe [adobeio-auth](https://github.com/AdobeDocs/adobeio-auth/tree/master)
+* Adobe [analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
