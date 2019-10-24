@@ -1,0 +1,147 @@
+{
+  "rsid": "cortaldemaindev",
+  "dimension": "string",
+  "locale": {
+    "language": "string",
+    "script": "string",
+    "country": "string",
+    "variant": "string",
+    "extensionKeys": [
+      "string"
+    ],
+    "unicodeLocaleAttributes": [
+      "string"
+    ],
+    "unicodeLocaleKeys": [
+      "string"
+    ],
+    "iso3Language": "string",
+    "iso3Country": "string",
+    "displayLanguage": "string",
+    "displayScript": "string",
+    "displayCountry": "string",
+    "displayVariant": "string",
+    "displayName": "string"
+  },
+  "globalFilters": [
+    {
+      "id": "string",
+      "type": "DATE_RANGE",
+      "dimension": "string",
+      "itemId": "string",
+      "itemIds": [
+        "string"
+      ],
+      "segmentId": "string",
+      "segmentDefinition": {
+        "additionalProp1": {},
+        "additionalProp2": {},
+        "additionalProp3": {}
+      },
+      "dateRange": "string",
+      "excludeItemIds": [
+        "string"
+      ]
+    }
+  ],
+  "search": {
+    "clause": "string",
+    "excludeItemIds": [
+      "string"
+    ],
+    "itemIds": [
+      "string"
+    ],
+    "includeSearchTotal": true,
+    "empty": true
+  },
+  "settings": {
+    "limit": 0,
+    "page": 0,
+    "dimensionSort": "string",
+    "countRepeatInstances": true,
+    "reflectRequest": true,
+    "includeAnomalyDetection": true,
+    "includePercentChange": true,
+    "includeLatLong": true
+  },
+  "statistics": {
+    "functions": [
+      "string"
+    ],
+    "ignoreZeroes": true
+  },
+  "metricContainer": {
+    "metricFilters": [
+      {
+        "id": "string",
+        "type": "DATE_RANGE",
+        "dimension": "string",
+        "itemId": "string",
+        "itemIds": [
+          "string"
+        ],
+        "segmentId": "string",
+        "segmentDefinition": {
+          "additionalProp1": {},
+          "additionalProp2": {},
+          "additionalProp3": {}
+        },
+        "dateRange": "string",
+        "excludeItemIds": [
+          "string"
+        ]
+      }
+    ],
+    "metrics": [
+      {
+        "id": "string",
+        "columnId": "string",
+        "filters": [
+          "string"
+        ],
+        "sort": "string",
+        "metricDefinition": {
+          "additionalProp1": {},
+          "additionalProp2": {},
+          "additionalProp3": {}
+        },
+        "predictive": {
+          "anomalyConfidence": 0
+        }
+      }
+    ]
+  },
+  "rowContainer": {
+    "rowFilters": [
+      {
+        "id": "string",
+        "type": "DATE_RANGE",
+        "dimension": "string",
+        "itemId": "string",
+        "itemIds": [
+          "string"
+        ],
+        "segmentId": "string",
+        "segmentDefinition": {
+          "additionalProp1": {},
+          "additionalProp2": {},
+          "additionalProp3": {}
+        },
+        "dateRange": "string",
+        "excludeItemIds": [
+          "string"
+        ]
+      }
+    ],
+    "rows": [
+      {
+        "rowId": "string",
+        "filters": [
+          "string"
+        ]
+      }
+    ]
+  },
+  "anchorDate": "string"
+}

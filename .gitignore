@@ -1,0 +1,8 @@
+# Compiled python files
+*.py[cod]
+
+
+
+# misc
+*.csv
+
