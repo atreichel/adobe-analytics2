@@ -32,3 +32,4 @@ Create requests for retrieving reports from the Adobe Analytics 2.0 API. Writing
 * [Swagger UI](https://adobedocs.github.io/analytics-2.0-apis/)
 * Adobe [adobeio-auth](https://github.com/AdobeDocs/adobeio-auth/tree/master)
 * Adobe [analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
+* Adobe [Metrics quick reference](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-overview.html)
