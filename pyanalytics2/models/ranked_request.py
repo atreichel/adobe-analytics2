@@ -100,7 +100,7 @@ class RankedRequest(object):
             
         if r.status_code!=200:
             # error
-            return None, r.text
+            return None, '{}: {}'.format(r.status_code, r.text)
         
         # convert respone to dict
         resp = r.json()
